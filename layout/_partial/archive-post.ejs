@@ -1,6 +1,18 @@
 <article class="archive-article archive-type-<%= post.layout %>">
   <header class="archive-article-header">
-    <%- partial('post/title', {class_name: 'archive-article-title'}) %>
-    <%- partial('post/date', {class_name: 'archive-article-date', date_format: 'MMMM Do'}) %>
+    <div class="thumbnail">
+      <img src="/blog/2016/05/20/play-guitar/guitar-desk.jpg" alt="...">
+      <!-- <img src={% asset_img guitar&#45;desk.jpg %} alt="..."> -->
+      <div class="caption">
+        <h3>
+          <%- partial('post/title', {class_name: 'archive-article-title'}) %>
+        </h3>
+<!--
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+-->
+        <%- partial('post/date', {class_name: 'archive-article-date', date_format: 'MMMM Do'}) %>
+      </div>
+    </div>
   </header>
 </article>
