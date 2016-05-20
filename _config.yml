@@ -1,7 +1,8 @@
 # Header
-navbar_brand: false
+navbar_brand: linkgo.io
+host_home_page: /
 menu:
-  Home: index.html
+  # Home: index.html
   Archives: archives/
 rss: /atom.xml
 

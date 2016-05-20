@@ -1,5 +1,5 @@
-<nav class="navbar navbar-inverse">
-  <div class="container">
+<nav class="navbar navbar-default navbar-linkgo-blog">
+  <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu-navbar" aria-expanded="false">
@@ -9,13 +9,13 @@
         <span class="icon-bar"></span>
       </button>
       <% if (theme.navbar_brand){ %>
-        <a class="navbar-brand" href="<%- config.root %>"><%- theme.navbar_brand %></a>
+        <a class="navbar-brand" href="<%- theme.host_home_page %>"><%- theme.navbar_brand %></a>
       <% } %>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="main-menu-navbar">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav navbar-right">
         <% for (var i in theme.menu){ %>
           <li><a class="<%= is_current(theme.menu[i]) ? 'active' : '' %>"
                  href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
