@@ -12,16 +12,15 @@ fancybox: false
 
 # Sidebar
 widgets:
-- about         # See also: `about_content`
+#- about         # See also: `about_content`
 - category
 - tag
 - tagcloud
-- archive
+#- archive
 - recent_posts
 about_widget_content: >
-  <p>Etiam porta <em>sem malesuada magna</em> mollis euismod.
-  Cras mattis consectetur purus sit amet fermentum. Aenean
-  lacinia bibendum nulla sed consectetur.</p>
+  <p>This blog is <em>made with love</em> by linkgo.io,
+    wish these articles make you know us, feel free to contact us.</p>
 
 # widget behavior
 archive_type: 'monthly'
