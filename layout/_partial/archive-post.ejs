@@ -1,7 +1,11 @@
 <article class="archive-article archive-type-<%= post.layout %>">
   <header class="archive-article-header">
     <div class="thumbnail archive-post">
-      <img src="<%- post.featured_image %>" alt="featured_image">
+      <% if (theme.use_url_image && post.url_image) { %> 
+        <img src="<%- post.url_image %>" alt="url_image">
+      <% } else { %>
+        <img src="<%- post.featured_image %>" alt="featured_image">
+      <% } %>
       <div class="caption">
         <h3>
           <%- partial('post/title', {class_name: 'archive-article-title'}) %>
