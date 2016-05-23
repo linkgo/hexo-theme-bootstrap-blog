@@ -16,7 +16,7 @@ widgets:
 - category
 - tag
 - tagcloud
-#- archive
+- archive
 - recent_posts
 about_widget_content: >
   <p>This blog is <em>made with love</em> by linkgo.io,

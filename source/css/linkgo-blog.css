@@ -61,7 +61,7 @@ aside {
 }
 .navbar-linkgo-blog .navbar-header .navbar-brand {
   color: white;
-  font-weight: 700;
+  font-weight: 500;
 }
 .navbar-linkgo-blog .navbar-header .navbar-brand:hover,
 .navbar-linkgo-blog .navbar-header .navbar-brand:focus {
@@ -72,11 +72,11 @@ aside {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 13px;
-  color: #0CE8A6;
+  color: rgba(255, 255, 255, 0.8);
 }
 .navbar-linkgo-blog .nav > li > a:hover,
 .navbar-linkgo-blog .nav > li > a:focus:hover {
-  color: #0CE8A6;
+  color: white;
 }
 .navbar-linkgo-blog .nav > li.active > a,
 .navbar-linkgo-blog .nav > li.active > a:focus {
@@ -102,11 +102,11 @@ aside {
   }
   .navbar-linkgo-blog .nav > li > a,
   .navbar-linkgo-blog .nav > li > a:focus {
-    color: white;
+    color: rgba(255, 255, 255, 0.8);
   }
   .navbar-linkgo-blog .nav > li > a:hover,
   .navbar-linkgo-blog .nav > li > a:focus:hover {
-    color: #00759B;
+    color: white;
   }
   .navbar-linkgo-blog.affix {
     -webkit-transition: all 2s;
@@ -123,7 +123,7 @@ aside {
   }
   .navbar-linkgo-blog.affix .nav > li > a,
   .navbar-linkgo-blog.affix .nav > li > a:focus {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.8);
   }
   .navbar-linkgo-blog.affix .nav > li > a:hover,
   .navbar-linkgo-blog.affix .nav > li > a:focus:hover {
@@ -134,7 +134,7 @@ aside {
   position: relative;
   width: 100%;
   min-height: 30%;
-  background: url('http://o7m387gr6.bkt.clouddn.com/guitar-road.jpg');
+  background: url('http://o7m387gr6.bkt.clouddn.com/linkgo-io-beach-banner-long.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
